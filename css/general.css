@@ -1,0 +1,21 @@
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px; /* so that the header doesn't cover the content of the page */
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+
+  height: 1000px; /* so that the page is scrollable */
+}
+
+@media (min-width: 1200.1px) {
+  body {
+    margin-left: 168px;
+  }
+}
+
+p {
+  font-family: Roboto, sans-serif, Arial;
+  margin: 0;
+}
